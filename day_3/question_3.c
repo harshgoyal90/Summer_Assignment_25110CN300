@@ -12,9 +12,9 @@ int main() {
     }
 
     Temp1 = num1;
-    Temp1 = num2;
+    Temp2 = num2;
 
-    while (Temp1 != 0) {
+    while (Temp2 != 0) {
         Remainder = Temp1 % Temp2;
         Temp1 = Temp2;
         Temp2 = Remainder;

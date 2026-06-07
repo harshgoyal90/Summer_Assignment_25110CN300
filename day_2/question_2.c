@@ -8,7 +8,6 @@ int main() {
     printf("Enter an Number: ");
     scanf("%d", &num);
 
-
     for (; num != 0; num = num / 10) {
         remainder = num % 10;                     
         reversedNumber = reversedNumber * 10 + remainder; 
@@ -18,4 +17,4 @@ int main() {
     printf("Reversed number: %d\n", reversedNumber);
 
     return 0;
-}
+} 
