@@ -1,15 +1,19 @@
-#include <stdio.h>
+
+ 
+ #include <stdio.h>
 
 int main() {
-    int rows = 5; 
     int i, j;
+    int rows = 5; 
+
     for (i = 1; i <= rows; i++) {
         
-        for (j = 0; j < i; j++) {
-            printf("%c", 'A' + j);
+        for (j = 1; j <= i; j++) {
+            printf("%c", 65 + i - 1);
         }
-        
+   
         printf("\n");
     }
+
     return 0;
 }
