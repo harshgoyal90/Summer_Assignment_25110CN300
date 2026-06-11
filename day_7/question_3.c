@@ -1,6 +1,5 @@
 // Recursive function to calculate sum of digits
 #include <stdio.h>
-
 int sumDigits(int n)
 {
     if (n == 0)
