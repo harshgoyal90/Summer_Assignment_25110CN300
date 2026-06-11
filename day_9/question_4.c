@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int size = 5; 
-  
-    for (int i = 1; i <= size; i++) {
-        for (int j = 1; j <= size; j++) {
+    int n; 
+     printf("ENTER THE ROWS :");
+    scanf("%d",&n);
+    
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n; j++) {
      
-            if (i == 1 || i == size || j == 1 || j == size) {
+            if (i == 1 || i == n || j == 1 || j == n) {
                 printf("*");
             } else {
                 printf(" ");
