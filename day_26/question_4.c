@@ -43,7 +43,7 @@ int main() {
     }
 
     // Final Score
-    printf("\nYour final score is: %d out of 30\n", score);
+    printf("\nYour final score is: %d out of 3\n", score);
 
     return 0;
 }
